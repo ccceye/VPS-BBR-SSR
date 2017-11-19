@@ -11,6 +11,7 @@ ShadowSocksR-Install-Debian-BBR
 **BBR 简单介绍** 
 
 BBR 是一个由谷歌社区开发的 TCP拥塞控制技术，目前处于开发初期，但是前景很棒，大家可以持续关注，同时BBR是集成与Linux最新版本的内核中的。
+BBR官方项目地址：https://github.com/google/bbr
 
 **启动步骤** 
 
