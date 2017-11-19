@@ -39,10 +39,10 @@ Debian 9 x64 系统的内核为4.9.0-3, 不用更换内核。
   
   执行下面命令，如果结果中有bbr，即证明你的内核已开启bbr.
     
-    `sysctl net.ipv4.tcp_available_congestion_control`
+   `sysctl net.ipv4.tcp_available_congestion_control`
     
   执行下面命令，看到有 tcp_bbr 模块，即说明bbr已启动.
     
-    `lsmod | grep bbr`
+   `lsmod | grep bbr`
     
     
