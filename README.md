@@ -49,6 +49,7 @@ Debian 9 x64 系统的内核为4.9.0-3, 不用更换内核。
  
 ## 一键安装 ShadowsocksR 服务端
 
+https://shadowsocks.be/9.html
 
 ### 使用方法
 
