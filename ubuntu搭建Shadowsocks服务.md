@@ -90,7 +90,7 @@ Tips: 如果需要配置多个用户,可以这样来设置:
 
 **参照相关文档**
 
-		https://github.com/shadowsocks/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
+https://github.com/shadowsocks/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
 
 ## 配置开机自启动
 
