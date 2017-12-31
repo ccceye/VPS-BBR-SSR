@@ -62,10 +62,35 @@ Tips: 如果需要配置多个用户,可以这样来设置:
 
 为了支持这些加密方式，你要需要安装
 
-sudo apt–get install python–m2crypto
+`sudo apt–get install python–m2crypto`
+
 然后使用配置文件在后台运行：
 
 `sudo ssserver -c /etc/shadowsocks.json -d start`
+
+**启动**
+
+`ssserver -c /etc/shadowsocks.json -d start`
+
+或不需要配置文件
+
+`sudo ssserver -p 443 -k password -m rc4-md5 –user nobody -d start`
+
+**关闭**
+
+`ssserver -d stop`
+
+**日志文件**
+
+`/var/log/shadowsocks.log`
+
+**帮助**
+
+`ssserver -h`
+
+**参照相关文档**
+
+		https://github.com/shadowsocks/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
 
 ## 配置开机自启动
 
